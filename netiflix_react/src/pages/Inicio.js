@@ -1,5 +1,11 @@
+import Billboard from "../components/layout/Billboard";
+
 function Inicio() {
-    return <div>Pagina Inicial</div>;
+    return (
+        <div>
+            <Billboard />
+        </div>  
+    );
 }
 
 export default Inicio;

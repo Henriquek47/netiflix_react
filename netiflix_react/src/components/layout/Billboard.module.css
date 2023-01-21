@@ -1,0 +1,121 @@
+.billboardContainer{
+    width:100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+    .billboardRow{
+        position: relative;
+        background-color: #000;
+        margin-bottom: 20px;
+        padding-bottom: 40%;
+        position: relative;
+    }
+        .img{
+            background-position: 50%;
+            background-size: cover;        
+            opacity: 0.8;
+            width: 100%;
+        }
+        .logo{
+            width: 30%;
+            position: absolute;
+            top: 8%;
+            left: 6%;
+        }
+
+        .billboardText{
+            position: absolute;
+            top: 23%;
+            left: 6%;
+            font-family: helvetica, arial, sans-serif;
+            font-size: .95vw;
+            color: rgb(255, 255, 255);
+        }
+
+        .billboardLinks{
+            display:flex;
+            line-height: 88%;
+            margin-top: 1.5vw;
+            white-space: nowrap;
+        }
+
+            .billboardContainer .billboardRow .billboardLinks .button{
+                font-weight: bold;             
+                background-color: #fff;
+                border: 1px solid #d5d9d9;
+                border-radius: 4px;
+                box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+                box-sizing: border-box;
+                color: #0f1111;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 15px;
+                line-height: 29px;
+                text-align: center;
+                text-decoration: none;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                vertical-align: middle;
+                width: 7%;
+            }
+            .billboardLinks .button1{
+                font-family: helvetica, arial, sans-serif;
+                position: absolute;
+                top: 30%;
+                left: 6%;  
+                font-weight: bold;             
+                background-color: #fff;
+                border: 1px solid #d5d9d9;
+                border-radius: 4px;
+                box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+                box-sizing: border-box;
+                color: #0f1111;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 15px;
+                line-height: 29px;
+                text-align: center;
+                text-decoration: none;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                vertical-align: middle;
+                width: 7%;
+            }
+
+            .billboardLinks .button2{
+                font-family: helvetica, arial, sans-serif;
+                position: absolute;
+                top: 30%;
+                left: 14%;
+                font-weight: bold;
+                background-color: #fff;
+                border: 1px solid #d5d9d9;
+                border-radius: 4px;
+                box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+                box-sizing: border-box;
+                color: #0f1111;
+                cursor: pointer;
+                display: inline-block;
+                font-family: "Amazon Ember",sans-serif;
+                font-size: 15px;
+                line-height: 29px;
+                padding: 0 10px 0 11px;
+                text-align: center;
+                text-decoration: none;
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                vertical-align: middle;
+                width: 9%;
+            }
+                        
+            .button1:hover {
+                opacity: 0.4;
+            }
+
+            .button2:hover {
+                opacity: 0.4; 
+            }
