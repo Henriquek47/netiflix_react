@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-width: 100%;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.list{
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .button{
+    position: absolute;
+    background-color: red;
+  }
+
+  .button2{
+    position: absolute;
+    right: 0;
+    background-color: red;
+  }
+  
+  .movies{
+    min-width: 350px;
+    height: 150px;
+    text-align: center;
+    background-color: #ccc;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .movies:hover{
+    background-color: red;
+    transform: scale(3);
+    position: absolute;
+    transition: 2s all ease;
+  }
+
+  .list:hover{
+    display: flex;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
